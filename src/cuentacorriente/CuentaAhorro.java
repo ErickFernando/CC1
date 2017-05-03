@@ -22,7 +22,6 @@ public class CuentaAhorro extends CuentaCorriente {
         super(nombre, numCuenta);
         this.interes = interes;
     }
-
     public double getInteres() {
         return this.interes;
     }
